@@ -12,8 +12,8 @@ while True:
     file.write(str(counter)+"\n")
     file.close()
     print(f"Writing {counter} in file")
-    counter +=1
-    sleep(1)
+    counter +=2
+    sleep(0.5)
     
 
     
